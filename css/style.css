@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mols{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+h1{
+    font-size: 20px;
+    color: purple;
+}
+input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+button{
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
